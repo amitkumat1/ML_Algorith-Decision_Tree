@@ -1,24 +1,24 @@
 # ML_Algorithm-Decision_Tree
 In this notebook, we have used the decision tree algorithm to create the model that can predict whether the person has heart disease or not. I have given the details of all the columns available in this datasets:
-sex --> 1 - M, 0 - F
-cp --> chest pain (0,1,2,3)
-trestbps --> When a patient is resting, what's his blood pressure
-chol --> cholestrol level
-fbs --> Blood sugar level when the person is fasting
-restecg --> when a person is resting, what's his ecg
-thalach --> Maximum heart rate achieved
-exang --> Exercise Induce Angena, chest pain for the people who hit gym very often. 0 -. NO CP, 1 -> CP
-oldpeak --> these are values of crest and trough of ecg
-slope --> slope values
-ca --> Maximum no. of major blood vessels --> 0,1,2,3
-thal --> 0,1,2
+sex --> 1 - M, 0 - F,
+cp --> chest pain (0,1,2,3),
+trestbps --> When a patient is resting, what's his blood pressure,
+chol --> cholestrol level,
+fbs --> Blood sugar level when the person is fasting,
+restecg --> when a person is resting, what's his ecg,
+thalach --> Maximum heart rate achieved,
+exang --> Exercise Induce Angena, chest pain for the people who hit gym very often. 0 -. NO CP, 1 -> CP,
+oldpeak --> these are values of crest and trough of ecg,
+slope --> slope values,
+ca --> Maximum no. of major blood vessels --> 0,1,2,3,
+thal --> 0,1,2,
         Genetic disorder
         0 --> no genetic disorder
         1 --> genetic disorder(fixed effect) --> cannot be treated
-        2 --> genetic disorder(reversible) --> treated
-target --> whether the person is having a heart disease or not
+        2 --> genetic disorder(reversible) --> treated,
+target --> whether the person is having a heart disease or not,
        0 --> The person is not having heart disease
-       1 --> The person is having a heart disease
+       1 --> The person is having a heart disease,
 Please go through the steps I have used to build this model.
 ## Table Of Content
 ### Importing the Library
